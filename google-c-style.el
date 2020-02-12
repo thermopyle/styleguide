@@ -89,7 +89,7 @@ Suitable for inclusion in `c-offsets-alist'."
                                (substatement-open after)))
     (c-hanging-colons-alist . ((case-label)
                                (label after)
-                               (access-label after)
+                               (access-label)
                                (member-init-intro before)
                                (inher-intro)))
     (c-hanging-semi&comma-criteria
